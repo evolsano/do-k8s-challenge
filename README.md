@@ -132,7 +132,7 @@ Since I am using LoadBalancer mode to deploy my harbor, it will redirect http to
 
 <img width="1440" alt="Screenshot 2021-12-27 at 4 22 36 PM" src="https://user-images.githubusercontent.com/8122147/147624925-5f5f6f31-e36c-428f-a507-c840500f4d42.png">
 
-<img width="1440" alt="Screenshot 2021-12-27 at 4 22 32 PM" src="https://user-images.githubusercontent.com/8122147/147624934-0d2d675c-771a-4d02-bcf7-096e92c9ce35.png">
+<img width="1440" alt="Screenshot 2021-12-27 at 4 23 23 PM" src="https://user-images.githubusercontent.com/8122147/147625008-15a9878d-98a4-4a9f-8693-a004990a5cde.png">
 
 ## Final thought
 I would like to thank you Digital Ocean again by offering such a great challenge and I can finally get my hands into Kubernetes. Digital Ocean offer a very convenient way for those who want to setup any Kubernetes cluster environment in minutes! 
