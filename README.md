@@ -91,7 +91,7 @@ APP VERSION: 2.4.1
   echo Password: $(kubectl get secret --namespace harbor harbor-core-envvars -o jsonpath="{.data.HARBOR_ADMIN_PASSWORD}" | base64 --decode)
 ```
 
-Watch harbor pods deployment.
+Get harbor pods deployment and ensure all pods running.
 ```
 kubectl get pods -n harbor
 ```
@@ -111,6 +111,23 @@ harbor-registry-d9bb7984-7n2m7          2/2     Running   0          2m29s
 harbor-trivy-0                          1/1     Running   0          2m29s
 ```
 
+### harbor external IP
+Get the external IP with this command,
+```
+kubectl get svc -n harbor -w harbor
+```
+>Output
+```
+NAME    TYPE           CLUSTER-IP       EXTERNAL-IP       PORT(S)                                     AGE
+harbor   LoadBalancer   10.245.100.223   144.126.241.233   80:31786/TCP,443:30983/TCP,4443:30188/TCP   41m
+```
+
+Create A record in DNS with the EXTERNAL-IP.
+
 ### SSL/TLS Certificate
 I am using Cloudflare to provision a public signed SSL certificate and proxied to harbor.
 Since I am using LoadBalancer mode to deploy my harbor, it will redirect http to https. Remember to set the SL/TLS encryption mode to Full.
+
+### Access to harbor.
+
+
