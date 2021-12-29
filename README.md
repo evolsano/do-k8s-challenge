@@ -130,4 +130,5 @@ Since I am using LoadBalancer mode to deploy my harbor, it will redirect http to
 
 ### Access to harbor.
 
-
+## Final thought
+I would like to thank you Digital Ocean again by offering such a great challenge and I can finally get my hands into Kubernetes. Digital Ocean offer a very convenient way for those who want to setup any Kubernetes cluster environment in minutes! 
