@@ -12,9 +12,19 @@ Install Kubernetes command-line tool [kubectl](https://kubernetes.io/docs/tasks/
 
 ### Create kubernetes cluster in Digital Ocean (DO) dashboard. 
 
-DO offer clean UI and simplify the process to bring up a kubernetes cluster.
+DO offer clean UI and simplify the process to bring up a kubernetes cluster. Login to DO dashboard, and start your kubernetes journey.
 
-Once the k8s cluster created, you can verify it from DO dashboard, or from CLI.
+<img width="1032" alt="Screenshot 2022-01-09 at 10 45 15 AM" src="https://user-images.githubusercontent.com/8122147/148667302-2872373a-5460-4d91-ac69-65725ceb7adf.png">
+
+<img width="1119" alt="Screenshot 2022-01-09 at 10 45 35 AM" src="https://user-images.githubusercontent.com/8122147/148667305-926813b6-465f-4212-8f48-e78e67d24b09.png">
+
+<img width="691" alt="Screenshot 2022-01-09 at 10 45 53 AM" src="https://user-images.githubusercontent.com/8122147/148667310-2cc61cfc-fa39-46cd-a299-3a8fd396d45d.png">
+
+Copy and paste the command from into your terminal to connect to your kubernetes cluster.
+
+<img width="1117" alt="Screenshot 2022-01-09 at 10 47 58 AM" src="https://user-images.githubusercontent.com/8122147/148667800-a772cb91-2b1d-4448-9b71-85ddc61d9a5e.png">
+
+Once the k8s cluster created, you can verify it from DO dashboard, or from terminal.
 
 ```
 kubectl get nodes
