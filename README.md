@@ -26,6 +26,8 @@ Copy and paste the command from into your terminal to connect to your kubernetes
 
 Once the k8s cluster created, you can verify it from DO dashboard, or from terminal.
 
+<img width="1117" alt="Screenshot 2022-01-09 at 10 47 58 AM" src="https://user-images.githubusercontent.com/8122147/148667855-d6911b87-f14d-4171-b1b9-6fc7442d1945.png">
+
 ```
 kubectl get nodes
 ```
